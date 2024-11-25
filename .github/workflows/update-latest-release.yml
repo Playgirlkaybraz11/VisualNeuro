@@ -22,7 +22,7 @@ jobs:
     
     steps:
     - name: Download installer
-      uses: dawidd6/action-download-artifact@v2
+      uses: dawidd6/action-download-artifact@v6
       with:
         name: ${{ matrix.installer }}
         workflow: visualneuro.yml
